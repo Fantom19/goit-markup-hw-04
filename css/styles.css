@@ -34,14 +34,6 @@ p {
 img {
   display: block;
 }
-.overlay {
-  max-width: 1600px;
-  height: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4)),
-    url("../images/Img\ 17.jpg");
-}
 .header{
   border-bottom: 1px solid #ECECEC;
 }
@@ -78,6 +70,15 @@ padding-bottom: 94px;
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
+}
+.prioriti-img{
+  display: block;
+  content: "";
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--light-grey-color);
+  background-size: auto;
+  background-position: center;
 }
 .logo-link{
     margin-right: 93px;
@@ -139,10 +140,12 @@ padding-bottom: 94px;
 .auth-nav{
   display: flex;
   margin-left: auto;
-  
 }
 .auth-nav .item + .item{
   margin-left: 50px;
+}
+.auth-svg{
+  margin-right: 10px;
 }
 .project{
   padding: 20px 24px;
@@ -211,7 +214,16 @@ padding-bottom: 94px;
   padding-top: 200px;
   padding-bottom: 200px;
 
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1600px;
+  height: 600px;
   background-color: var(--footer-color);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
+  url(../images/Img\ 17.jpg);
+  background-size: cover;
+  background-position: center;
   text-align: center;
 }
 
