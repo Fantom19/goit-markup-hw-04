@@ -394,8 +394,50 @@ padding-bottom: 94px;
   line-height: 1.18;
   letter-spacing: 0.03em;
 }
+.customers{
+  padding-bottom: 50px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.customers-list{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.customers-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  color: #AFB1B8;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+}
+.customers-icon{
+ fill: currentColor;
+}
+.customers-link:hover,
+.customers-link:focus{
+  color: var(--Text-color);
+  border-color: var(--Text-color);
+}
 .footer{
     background-color: var(--footer-color);
+}
+.footer-title{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1,14;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  text-transform: uppercase;
+
+  color: var(--white-color);
 }
 /* Portfolio */
 .but-portfolio{
