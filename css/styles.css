@@ -259,6 +259,7 @@ padding-bottom: 94px;
 }
 .location:focus,
 .location{
+    min-width: 231px;
     display: inline-block;
     margin-top: 20px;
 
@@ -429,7 +430,14 @@ padding-bottom: 94px;
 .footer{
     background-color: var(--footer-color);
 }
+.footer> .container{
+  display: flex;
+  align-items: baseline;
+  gap: 70px;
+}
 .footer-title{
+  margin-bottom: 20px;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1,14;
@@ -438,6 +446,27 @@ padding-bottom: 94px;
   text-transform: uppercase;
 
   color: var(--white-color);
+}
+.soc-list-footer{
+  display: flex;
+  gap: 10px;
+}
+.soc-link-footer{
+  display: flex;
+  width: 44px;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
+  color: var(--white-color);
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.soc-icon-footer{
+  fill: currentColor;
+}
+.soc-link-footer:hover,
+.soc-link-footer:focus{
+  background-color: var(--Text-color);
 }
 /* Portfolio */
 .but-portfolio{
